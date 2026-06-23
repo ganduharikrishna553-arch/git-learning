@@ -1,0 +1,39 @@
+body {
+    background: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    background: white;
+    margin:10px auto;
+    margin-top: 300px;
+    padding: 1em;
+
+    width: 400px;
+
+    border-radius: 3px;
+
+    box-shadow: 0 0 10px gray;
+}
+
+form input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+form input[type="submit"] {
+    background:blue;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+form input[type="submit"]:hover {
+    background: white;
+    color: black;
+}
